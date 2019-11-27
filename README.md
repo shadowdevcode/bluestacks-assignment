@@ -6,11 +6,11 @@
    `virtualenv -p /usr/local/bin/python3 venv`
 2. Install dependencies -
    `pip install -r requirements.txt`
-3. Create .env file and add the contents using env_example.txt file.
+3. Create .env file and add the contents using **env_example.txt** file.
 4. Create your discord bot by visiting [developers console](https://discordapp.com/developers/applications)
-5. Save the bot token and add to .env file.
-6. Create your **PostgreSQL database** and enter credentials in .env file
-7. Create the **table 'searches'** using the SQL query:
+5. Copy the bot token and add to .env file.
+6. Create your **_PostgreSQL database_** and enter credentials in .env file
+7. Create the **_table 'searches'_** using the SQL query:
    `Create table searches (user_id varchar(256), keyword varchar(256), search_time timestamp);`
 8. Create custom search engine using Google Search API and insert the developer and search engine ID in .env file.
 9. Run the app -
